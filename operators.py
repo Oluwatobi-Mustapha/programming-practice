@@ -3,7 +3,8 @@ Day 2: Python Operators
 Shopping cart discount and free shipping logic.
 Demonstrates: Assignment, Arithmetic, Comparison, Logical, Membership operators
 """
-#Configuration(constants)
+
+# Configuration(constants)
 
 DISCOUNT_RATE = 0.20  # 20% discount
 ELIGIBLE_ITEMS = ["orange", "banana", "watermelon"]
