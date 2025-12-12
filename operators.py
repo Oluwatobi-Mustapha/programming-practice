@@ -6,8 +6,8 @@ Demonstrates: Assignment, Arithmetic, Comparison, Logical, Membership operators
 #Configuration(constants)
 
 DISCOUNT_RATE = 0.20  # 20% discount
-    ELIGIBLE_ITEMS = ["orange", "banana", "watermelon"]
-    FREE_SHIPPING_MIN_QTY = 3 # Minimum quantity for free shipping
+ELIGIBLE_ITEMS = ["orange", "banana", "watermelon"]
+FREE_SHIPPING_MIN_QTY = 3 # Minimum quantity for free shipping
 
 def main():
     
