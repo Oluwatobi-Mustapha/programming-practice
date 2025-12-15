@@ -19,7 +19,7 @@ File: `operators.py`
 
 # Day 3: Conditional statement
 
-Learned; If/elif/else conditional logic, dictionary, String .join() to combine items with separator, Input validation (.lower(), .strip())
+Learned: [ If/elif/else conditional logic, dictionary, String .join() to combine items with separator, Input validation (.lower(), .strip()) ]
 
 Apllied: AWS service mapper
 
