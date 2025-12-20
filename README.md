@@ -24,3 +24,14 @@ Learned: [ If/elif/else conditional logic, dictionary, String .join() to combine
 Apllied: AWS service mapper
 
 File: `conditional_statements.py`
+
+# Day 4: lists.
+Learned lists and used it to create a basic IAM script.   
+
+Now I  understand the difference between lists (mutable) and tuples (immutable).and  how "if" and "in" are used conditionally. Also comprehended the concept of indexing and how it is used to replace values in a list.
+
+Besides, I touched how list slicing works and how useful it can be, especially during audits.
+
+In Python, an empty list [] evaluates to False, not 0. An error occurs only when accessing an invalid index. 
+
+pop() with no argument removes the last item, while "pop(0)" removes the first item.'
