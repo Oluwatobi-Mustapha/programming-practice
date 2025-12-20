@@ -7,23 +7,17 @@ Learned: [str, int, bool, float]
 
 Applied: AWS cost calculation
 
-File: `data_types.py`
-
 # Day 2: Python Operators
 
 Learned: [Assignment, Membership, Logical, Comparison, Arithmetic]
 
 Applied: Shopping cart logic
 
-File: `operators.py`
-
 # Day 3: Conditional statement
 
 Learned: [ If/elif/else conditional logic, dictionary, String .join() to combine items with separator, Input validation (.lower(), .strip()) ]
 
 Apllied: AWS service mapper
-
-File: `conditional_statements.py`
 
 # Day 4: lists.
 Learned lists and used it to create a basic IAM script.   
@@ -34,4 +28,4 @@ Besides, I touched how list slicing works and how useful it can be, especially d
 
 In Python, an empty list [] evaluates to False, not 0. An error occurs only when accessing an invalid index. 
 
-pop() with no argument removes the last item, while "pop(0)" removes the first item.'
+pop() with no argument removes the last item, while pop(0) removes the first item.'
