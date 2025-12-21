@@ -7,7 +7,7 @@ Learned: [str, int, bool, float]
 
 Applied: AWS cost calculation
 
-File: `data_types`
+File: `data_types.py`
 
 # Day 2: Python Operators
 
@@ -15,13 +15,15 @@ Learned: [Assignment, Membership, Logical, Comparison, Arithmetic]
 
 Applied: Shopping cart logic
 
-File: `Operators_py`
+File: `Operators.py`
 
 # Day 3: Conditional statement
 
 Learned: [ If, elif, else conditional logic, dictionary, String .join() to combine items with separator, Input validation (.lower(), .strip()) ]
 
 Apllied: AWS service mapper
+
+File: `Condtional_statements.py`
 
 # Day 4: lists.
 
