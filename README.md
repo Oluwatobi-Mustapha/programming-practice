@@ -42,4 +42,4 @@ File: [`IAM Cleanup`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/IAM
 
       
       
-NOTE: You use .index() to convert a Name into a Number, so you can use that number to modify the list, which was what I did in the line 20 0f my code
+NOTE: You use .index() to convert a Name into a Number, so you can use that number to modify the list, which was what I did in the line 20 of my code
