@@ -52,12 +52,15 @@ def main():
     print(f"EC2 Launch Year: {aws_services['EC2']['launch_year']}") # Grab only launch year from the ec2 details
     print(f"EC2 Description: {aws_services['EC2']['description']}")  # Grab only description from the ec2 detail
 
+
+    """Scenario: You are scanning a user profile. 
+    Sometimes the 'mfa_enabled' key is missing entirely (which means they are insecure).
+    If you try to access a missing key directly, you crash."""
+
+    user = {'name': 'Tobi', 'role': 'admin'}
+    mfa_status = user.get("mfa_enabled", False)
+    print(mfa_status)
+
+
 if __name__ == '__main__':
     main()
-
-"""Scenario: You are scanning a user profile. 
-Sometimes the 'mfa_enabled' key is missing entirely (which means they are insecure).
-If you try to access a missing key directly, you crash."""
-
-user = {'name': 'Tobi', 'role': 'admin'}
-
