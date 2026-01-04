@@ -60,4 +60,4 @@ Application:[`Functions`](https://github.com/Oluwatobi-Mustapha/Python/blob/main
 
 Application: [`KeyError`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/exception_handling.py)
 
-Architecture Diagram: <img width="770" height="617" alt="image" src="https://github.com/user-attachments/assets/f6f31741-5d56-4138-8942-b34d9abfb0dd" />
+Architecture Diagram:<img width="770" height="617" alt="Exception handling excalidraw" src="https://github.com/user-attachments/assets/ce169b30-0ab4-44ad-8f06-595a25d448c0" />
