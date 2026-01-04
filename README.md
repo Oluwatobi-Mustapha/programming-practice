@@ -35,9 +35,7 @@ File: [`IAM Cleanup`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/IAM
 
 # Day 5: Lists continuation
 
-File: 
-- [`Access key rotator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Access_Key_Rotator.py)
-- [`IAM user permission audits`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/IAM_User_Permissions_Audit.py)
+File:[`Access key rotator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Access_Key_Rotator.py) [`IAM user permission audits`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/IAM_User_Permissions_Audit.py)
 
 # Day 6: Dictionaries
 
@@ -51,9 +49,7 @@ Learned: for, while, else, .get(), in, else, if, break(stop), continue(skip).
 
 Application: Audit tool
 
-File:
-- [`IAM User Audit Tool`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/IAM_User_Audit_Tool.py)
-- [`Loops.py`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Loops.py)
+File:[`IAM User Audit Tool`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/IAM_User_Audit_Tool.py) [`Loops.py`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Loops.py)
      
 # Day 8: Functions
 Application:[`Functions`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Functions.py)
