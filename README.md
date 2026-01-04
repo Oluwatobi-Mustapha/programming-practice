@@ -59,5 +59,4 @@ Application:[`Functions`](https://github.com/Oluwatobi-Mustapha/Python/blob/main
 # Day 9: Exception Handling
 Application: [`KeyError`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/exception_handling.py)
 
-Architecture Diagram:<img width="1540" height="1234" alt="Exception handling" src="https://github.com/user-attachments/assets/5b979ad0-a7ec-4b5d-8ea6-1d01f8d9ba0a" />
-
+Architecture Diagram:<img width="770" height="617" alt="image" src="https://github.com/user-attachments/assets/51a1684f-0ced-452a-844c-602f2ab1db78" />
