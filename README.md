@@ -41,7 +41,7 @@ File:[`Access key rotator`](https://github.com/Oluwatobi-Mustapha/Python/blob/ma
 
 Learned how to extracts, modify and assign a new file to a dictionary
 
-File: [`Dict`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Dictionary.py)
+File: [`Dict`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Python_Fundamentals/Dictionary.py)
 
 # Loops
 
@@ -52,11 +52,11 @@ Application: Audit tool
 File:[`IAM User Audit Tool`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/IAM_User_Audit_Tool.py) [`Loops.py`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Loops.py)
      
 # Functions
-Application:[`Functions`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Functions.py)
+Application:[`Functions`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Python_Fundamentals/Functions.py)
 
 # Exception Handling
 
-Application: [`KeyError`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/AWS_Cloud_Automation/exception_handling.py) [`single policy validator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/AWS_Cloud_Automation/iam_policy_validator_script.py) [`bulk policy validator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/AWS_Cloud_Automation/bulk_policy_scanner.py)
+Application: [`KeyError`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Python_Fundamentals/exception_handling.py) [`single policy validator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Python_Fundamentals/iam_policy_validator_script.py) [`bulk policy validator`](https://github.com/Oluwatobi-Mustapha/Python/blob/main/Python_Fundamentals/bulk_policy_scanner.py)
 
 Architecture Diagram:<img width="770" height="617" alt="Exception handling excalidraw" src="https://github.com/user-attachments/assets/ce169b30-0ab4-44ad-8f06-595a25d448c0" />
 
