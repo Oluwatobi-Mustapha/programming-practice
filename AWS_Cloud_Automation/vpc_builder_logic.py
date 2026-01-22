@@ -1,9 +1,11 @@
 import boto3
 from botocore.exceptions import ClientError
 
-# --- CONFIGURATION ---
+# Configuration
 VPC_CIDR_BLOCK = '10.0.0.0/16'
-SUBNET_CIDR_BLOCK = '10.0.1.0/24'
+SUBNET_CIDR_BLOCK_1 = '10.0.1.0/24'
+SUBNET_CIDR_BLOCK_2 = '10.0.2.0/24'
+SUBNET_CIDR_BLOCK_3 = '10.0.3.0/24'
 SECURITY_GROUP_NAME = 'Boto3-sg'
 
 # 1. Create the vpc 
@@ -21,16 +23,12 @@ vpc_waiter.wait(VpcIds=[vpc_id])
 print(vpc_id)
 
 # 2. Create the subnet with vpc id
-subnet_waiter = client.get_waiter('subnet_available')
 
-subnet_response = client.create_subnet(CidrBlock=SUBNET_CIDR_BLOCK, VpcId=vpc_id)
+subnet_1_response = client.create_subnet(CidrBlock=SUBNET_CIDR_BLOCK_1, VpcId=vpc_id, AvailabiltyZone='us-east-1a')
+subnet_2_response = client.create_subnet(CidrBlock=SUBNET_CIDR_BLOCK_2, VpcId=vpc_id, AvailabiltyZone='us-east-1b')
+subnet_3_response = client.create_subnet(CidrBlock=SUBNET_CIDR_BLOCK_3, VpcId=vpc_id, AvailabiltyZone='us-east-1c')
 
-subnet_id = subnet_response['Subnet']['SubnetId']
-
-subnet_waiter.wait(SubnetIds=[subnet_id])
-
-
-print(subnet_id)
+print(f"subnet_1_ID = '{subnet_1_response['Subnet']['SubnetId']}', subnet_2_ID = '{subnet_2_response['Subnet']['SubnetId']}', subnet__ID = '{subnet_3_response['Subnet']['SubnetId']}' ")
 
 # 3. Create the internet gateway
 ig_name = 'tobi-internet'
