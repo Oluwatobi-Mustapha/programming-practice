@@ -52,12 +52,10 @@ print(f"Created default route (0.0.0.0/0) to IGW {igw_id} in route table {rt_id}
 
 # 7. Associate subnets with the route table and mark them as public
 
-# - Associating the route table ensures traffic to 0.0.0.0/0
-#   is sent through the Internet Gateway.
-# - Enabling MapPublicIpOnLaunch is required so EC2 instances
-#   launched in these subnets automatically receive public IPs.
-# - Without this, instances will be unreachable even though
-#   the IGW and routes exist whuch is a common AWS networking pitfall
+# - Associating the route table ensures traffic to 0.0.0.0/0 is sent through the Internet Gateway.
+# - Enabling MapPublicIpOnLaunch is required so EC2 instances launched in these subnets automatically receive public IPs.
+# - Without this, instances will be unreachable even though the IGW and routes exist 
+
 public_subnet_responses = [
     subnet_1_response,
     subnet_2_response,
