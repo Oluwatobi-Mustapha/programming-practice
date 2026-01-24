@@ -84,6 +84,10 @@ Application: [`Automated VPC Setup`](https://github.com/Oluwatobi-Mustapha/Pytho
 
 <img width="1302" height="257" alt="Screenshot 2026-01-22 at 7 20 25 PM" src="https://github.com/user-attachments/assets/467a69a1-4601-42da-92d3-2c109b9e3390" />
 
+# CIS AWS BENCHMARK
+Application:[`audit_keys`](https://github.com/Oluwatobi-Mustapha/Python-and-Boto3/blob/main/AWS_Cloud_Automation/audit_keys.py)
+
+
 
 
 
